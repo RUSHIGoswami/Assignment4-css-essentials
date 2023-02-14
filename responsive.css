@@ -1,0 +1,35 @@
+@import url("style.css");
+
+
+.img-container-1:hover{
+  background: url(img.PNG) 85%;
+  background-size: cover;
+  transition: all 0.5s ease-in;
+}
+
+.img-container-2:hover{
+  height: 85%;
+  background: url(img.PNG) 0;
+  background-size: cover;
+  transition: all 0.5s ease-in;
+}
+
+.img-container-3 img:hover{
+  box-shadow: 10px 5px 5px rgba(0, 68, 255, 0.5);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in;
+}
+
+@media only screen and (max-width: 700px){
+
+  .container-3{
+    width: 60%;
+    height:100px;
+    
+  }
+  .img-container-3{
+    width: 50%;
+    height: 50%;
+    margin: 0;
+  }
+}
